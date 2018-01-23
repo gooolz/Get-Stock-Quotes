@@ -129,7 +129,7 @@ if __name__ == '__main__':
     print("Quotes Processor, Written by Julia Foote")
     print()
     while True:
-        sym = input("Enter a Stock Symbol: ")
+        sym = input("Please Enter a Stock Symbol: ")
         if not sym:
             break
         if len(sym) == 0:
